@@ -1,0 +1,159 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.20\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"18 C:\Users\USER\Documents\TIMER.X\TIMER.c
+[v _inicializar_puertos inicializar_puertos `(v  1 e 1 0 ]
+"33
+[v _TIMER0 TIMER0 `(v  1 e 1 0 ]
+"47
+[v _main main `(v  1 e 1 0 ]
+"67
+[v _timer_0 timer_0 `IIH(v  1 e 1 0 ]
+"95
+[v _visualizar_decseg visualizar_decseg `(i  1 e 2 0 ]
+"117
+[v _visualizar_seg visualizar_seg `(i  1 e 2 0 ]
+"138
+[v _visualizar_min visualizar_min `(i  1 e 2 0 ]
+"2314 C:/Users/USER/Desktop/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f4550.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"2453
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"2563
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"2705
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"3427
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3625
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"3847
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"6581
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S82 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"8089
+[s S89 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S93 . 1 `S82 1 . 1 0 `S89 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES93  1 e 1 @4053 ]
+"8146
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"8153
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S33 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"8614
+[s S42 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S51 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S55 . 1 `S33 1 . 1 0 `S42 1 . 1 0 `S51 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES55  1 e 1 @4082 ]
+"12 C:\Users\USER\Documents\TIMER.X\TIMER.c
+[v _min min `i  1 e 2 0 ]
+[v _seg seg `i  1 e 2 0 ]
+[v _dec_seg dec_seg `i  1 e 2 0 ]
+"13
+[v _H H `i  1 e 2 0 ]
+[v _L L `i  1 e 2 0 ]
+[v _BCD BCD `i  1 e 2 0 ]
+"47
+[v _main main `(v  1 e 1 0 ]
+{
+"61
+[v main@z z `i  1 a 2 10 ]
+"59
+[v main@y y `i  1 a 2 8 ]
+"57
+[v main@x x `i  1 a 2 6 ]
+"65
+} 0
+"117
+[v _visualizar_seg visualizar_seg `(i  1 e 2 0 ]
+{
+"119
+[v visualizar_seg@valor valor `i  1 a 2 4 ]
+"136
+} 0
+"138
+[v _visualizar_min visualizar_min `(i  1 e 2 0 ]
+{
+"140
+[v visualizar_min@valor valor `i  1 a 2 4 ]
+"158
+} 0
+"95
+[v _visualizar_decseg visualizar_decseg `(i  1 e 2 0 ]
+{
+"97
+[v visualizar_decseg@valor valor `i  1 a 2 4 ]
+"115
+} 0
+"18
+[v _inicializar_puertos inicializar_puertos `(v  1 e 1 0 ]
+{
+"32
+} 0
+"33
+[v _TIMER0 TIMER0 `(v  1 e 1 0 ]
+{
+"45
+} 0
+"67
+[v _timer_0 timer_0 `IIH(v  1 e 1 0 ]
+{
+"93
+} 0
